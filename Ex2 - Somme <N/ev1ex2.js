@@ -1,6 +1,5 @@
-// Ajout de 1 à nb pour décrémenté à l'entrée de la boucle
-var nb = parseInt(prompt("Calcul du nombre triangulaire de :")) + 1;
+var nb = parseInt(prompt("Calcul du nombre triangulaire de :"));
 var som = 0;
-while (--nb > 0)
+while (--nb > 0) // Enlève le nombre lui-même
     var som = som + nb;
 alert(som);
